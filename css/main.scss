@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    color: #FCB2F3;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background: #9B6FFA;
+}
+
+.nav-container a {
+  color: #FCB2F3;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+h1 {
+  margin: 0;
+  font-weight: bold;
+  color: white;
+  font-size: 5.5rem;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+p {
+    padding-left: 3rem;
+    padding-top: 0;
+    margin-top: 0;
+    color: #F09CD3;
+}
+
+.content {
+  width: 100%;
+  background-color: #7440ea;
+  height: 500px;
+  margin-bottom: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.meet {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#box {
+    color: #F09CD3;
+    padding-bottom: 2rem;
+}
+
+.secondcontainer {
+
+    margin: 0;
+
+    h2 {
+        margin: 0%;
+    }
+
+    #aboutmyself {
+        margin: 0%;
+    }
+
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 650px) {
+  header {
+    padding: 1em;
+
+  }
+
+  h1 {
+      font-size: 3.5rem;
+      padding-left: 1rem;
+  }
+
+    p {
+        padding-left: 1rem;
+    }
+  }
+
+
+@media only screen and (min-width: 651px) {
+    .nav-container {
+        margin-right: 30%;
+    }
+
+    .content {
+        position: relative;
+        width: 80%;
+
+    h1 {
+        padding-top: 3.5rem;
+        padding-left: 3rem;
+        }
+    
+
+    }
+}
+/*# sourceMappingURL=main.css.map */
