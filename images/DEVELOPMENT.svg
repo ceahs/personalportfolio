@@ -11,7 +11,7 @@
   <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_20)">
     <rect id="Rectangle_20-2" data-name="Rectangle 20" width="437" height="569" rx="64" transform="translate(22.5 92)" fill="#fff"/>
   </g>
-  <text id="DEVELOPMENT" transform="translate(95.5 38)" fill="#fcb2f3" font-size="40" font-family="SF Pro" alt="Roboto" font-weight="700"><tspan x="0" y="0">DEVELOPMENT</tspan></text>
+  <text id="DEVELOPMENT" transform="translate(95.5 38)" fill="#fcb2f3" font-size="40" font-family="SF Pro Display" font-weight="700"><tspan x="0" y="0">DEVELOPMENT</tspan></text>
   <g id="html-1" transform="translate(183 169)">
     <path id="Path_1" data-name="Path 1" d="M10.383,126.894,0,0,124,.255,113.021,126.894,62.468,141.532Z" fill="#e34f26"/>
     <path id="Path_2" data-name="Path 2" d="M62.468,129.277V12.085l51.064.17-9.106,104.851Z" fill="#ef652a"/>
