@@ -63,13 +63,14 @@ h1 {
   font-weight: bold;
   color: white;
   font-size: 5.5rem;
+  padding-left: 2.5rem;
   height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-p {
+#websiteby {
     padding-left: 3rem;
     padding-top: 0;
     margin-top: 0;
@@ -100,21 +101,54 @@ p {
 
 .secondcontainer {
 
-    margin: 0;
+    margin-top: 200px;
+    font-family: "Roboto", sans-serif;
 
     h2 {
         margin: 0%;
+        font-size: 3rem;
     }
 
     #aboutmyself {
         margin: 0%;
+        font-weight: bold;
+        color: #7440EA;
+
+    }
+
+    h3 {
+        font-weight: lighter;
+        text-align: center;
+        padding: 1em;
+    }
+
+    #comin {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .comingsoon {
+        background-color: #7440ea;
+    }
+
+    .boxx {
+        display: block;
+        padding: 1rem;
+        border: 1px solid white;
+        border-radius: 50px;
+        box-shadow: 0px 0px 20px #0000008a;
     }
 
     .aboutme {
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 1px solid black;
 
     }
 
@@ -123,9 +157,46 @@ p {
 }
 
 
+.dandd {
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #7440ea;
+    align-items: center;
+    margin-bottom: 200px;
+
+    #dev {
+        width: 50%;
+        padding-bottom: 40px;
+    }
+
+    #des {
+        width: 50%;
+    }
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    background-color: #7440EA;
+
+    .footerlinks {
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+
+    a {
+        color: #FCB2F3;
+    }
+    }
+}
+
 @media only screen and (max-width: 650px) {
   header {
-    padding: 1em;
+    padding-left: 1rem;
 
   }
 
@@ -134,13 +205,13 @@ p {
       padding-left: 1rem;
   }
 
-    p {
+    #websiteby {
         padding-left: 1rem;
     }
   }
 
 
-@media only screen and (min-width: 651px) {
+@media only screen and (min-width: 910px) {
     .nav-container {
         margin-right: 30%;
     }
@@ -148,13 +219,81 @@ p {
     .content {
         position: relative;
         width: 80%;
-
+    }
     h1 {
         padding-top: 3.5rem;
         padding-left: 3rem;
         }
     
-
+    .secondcontainer {
+        display: flex;
+        flex-wrap: wrap;
     }
-}
+
+    .boxx {
+        width: auto;
+        margin-top: 70px;
+        background-color: white;
+    }
+
+    .comingsoon {
+        width: 50%;
+    }
+    
+    .aboutme {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .abtme {
+        align-self: auto;
+    }
+
+    h1 {
+        padding-left: 2.5rem;
+    }
+
+    h2 {
+        font-size: 5rem !important;
+    }
+
+    h3 {
+        width: 100%;
+        font-size: 1.5rem;
+        margin-top: 150px;
+        justify-content: center;
+    }
+
+    .dandd {
+        flex-direction: row;
+        justify-content: center;
+
+        #dev {
+            width: 25%;
+            padding-bottom: 0;
+
+        }
+
+        #des {
+            width: 25%;
+        }
+
+
+
+        }
+
+    .footer {
+        .footerlinks {
+            justify-content: start;
+            padding: 20px;
+            margin-left: 5%
+        }
+
+        #blogs {
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+    }
+    }
+
 /*# sourceMappingURL=main.css.map */

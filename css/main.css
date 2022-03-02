@@ -62,6 +62,7 @@ h1 {
   font-weight: bold;
   color: white;
   font-size: 5.5rem;
+  padding-left: 2.5rem;
   height: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,7 +76,7 @@ h1 {
           justify-content: flex-end;
 }
 
-p {
+#websiteby {
   padding-left: 3rem;
   padding-top: 0;
   margin-top: 0;
@@ -121,15 +122,56 @@ p {
 }
 
 .secondcontainer {
-  margin: 0;
+  margin-top: 200px;
+  font-family: "Roboto", sans-serif;
 }
 
 .secondcontainer h2 {
   margin: 0%;
+  font-size: 3rem;
 }
 
 .secondcontainer #aboutmyself {
   margin: 0%;
+  font-weight: bold;
+  color: #7440EA;
+}
+
+.secondcontainer h3 {
+  font-weight: lighter;
+  text-align: center;
+  padding: 1em;
+}
+
+.secondcontainer #comin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.secondcontainer .comingsoon {
+  background-color: #7440ea;
+}
+
+.secondcontainer .boxx {
+  display: block;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 20px #0000008a;
+          box-shadow: 0px 0px 20px #0000008a;
 }
 
 .secondcontainer .aboutme {
@@ -143,23 +185,69 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid black;
+}
+
+.dandd {
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #7440ea;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 200px;
+}
+
+.dandd #dev {
+  width: 50%;
+  padding-bottom: 40px;
+}
+
+.dandd #des {
+  width: 50%;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  background-color: #7440EA;
+}
+
+.footer .footerlinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+}
+
+.footer .footerlinks a {
+  color: #FCB2F3;
 }
 
 @media only screen and (max-width: 650px) {
   header {
-    padding: 1em;
+    padding-left: 1rem;
   }
   h1 {
     font-size: 3.5rem;
     padding-left: 1rem;
   }
-  p {
+  #websiteby {
     padding-left: 1rem;
   }
 }
 
-@media only screen and (min-width: 651px) {
+@media only screen and (min-width: 910px) {
   .nav-container {
     margin-right: 30%;
   }
@@ -167,9 +255,76 @@ p {
     position: relative;
     width: 80%;
   }
-  .content h1 {
+  h1 {
     padding-top: 3.5rem;
     padding-left: 3rem;
+  }
+  .secondcontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .boxx {
+    width: auto;
+    margin-top: 70px;
+    background-color: white;
+  }
+  .comingsoon {
+    width: 50%;
+  }
+  .aboutme {
+    width: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .abtme {
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+  }
+  h1 {
+    padding-left: 2.5rem;
+  }
+  h2 {
+    font-size: 5rem !important;
+  }
+  h3 {
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 150px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .dandd {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .dandd #dev {
+    width: 25%;
+    padding-bottom: 0;
+  }
+  .dandd #des {
+    width: 25%;
+  }
+  .footer .footerlinks {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding: 20px;
+    margin-left: 5%;
+  }
+  .footer #blogs {
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
 /*# sourceMappingURL=main.css.map */

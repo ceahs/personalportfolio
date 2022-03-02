@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="482" height="686.5" viewBox="0 0 482 686.5">
+  <defs>
+    <filter id="Rectangle_20" x="0" y="72.5" width="482" height="614" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_20)">
+    <rect id="Rectangle_20-2" data-name="Rectangle 20" width="437" height="569" rx="64" transform="translate(22.5 92)" fill="#fff"/>
+  </g>
+  <text id="DEVELOPMENT" transform="translate(95.5 38)" fill="#fcb2f3" font-size="40" font-family="SF Pro" alt="Roboto" font-weight="700"><tspan x="0" y="0">DEVELOPMENT</tspan></text>
+  <g id="html-1" transform="translate(183 169)">
+    <path id="Path_1" data-name="Path 1" d="M10.383,126.894,0,0,124,.255,113.021,126.894,62.468,141.532Z" fill="#e34f26"/>
+    <path id="Path_2" data-name="Path 2" d="M62.468,129.277V12.085l51.064.17-9.106,104.851Z" fill="#ef652a"/>
+    <path id="Path_3" data-name="Path 3" d="M99.49,41.362l1.446-15.49H22.383l4.34,47.49H80.936L78.81,93.617,61.448,98.3,43.831,93.191l-.936-12.085H27.319l2.128,24.681,32,8.936L93.7,105.787l4.34-48.17H41.107L39.49,41.362Z" fill="#fff"/>
+  </g>
+  <g id="css-3" transform="translate(181 431.532)">
+    <path id="Path_4" data-name="Path 4" d="M10.383,126.892,0,0,124,.255,113.021,126.892,62.468,141.53Z" fill="#1b73ba"/>
+    <path id="Path_5" data-name="Path 5" d="M62.468,129.275V12.085l51.064.17L104.426,117.1Z" fill="#1c88c7"/>
+    <path id="Path_6" data-name="Path 6" d="M100.851,27.064H22.3l2.128,15.318H61.7L25.022,58.127l2.127,14.808H81.192l-1.958,20.68-18.3,3.575L44.341,92.935,43.064,81.19H27.83l2.042,24.426,32.681,9.106,31.32-9.957,4-47.745H64.765L100.85,42.042Z" fill="#fff"/>
+  </g>
+</svg>
