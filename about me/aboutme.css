@@ -1,0 +1,163 @@
+@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+html {
+  font-family: 'SF Pro Display', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "SF Pro Display", sans-serif;
+  overflow: hidden;
+}
+
+body footer {
+  bottom: 0px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  background-color: #7440EA;
+  padding: 2rem;
+  margin-top: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: #FCB2F3;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {opacity: 0.5;}
+
+img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.nav-container {
+  background: #9B6FFA;
+}
+
+.nav-container a {
+  color: #FCB2F3;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: flex-start;
+  padding: 2em;
+  background-color: #9B6FFA;
+  width: 70%;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  display: block;
+  padding: 0 2em;
+  margin-left: 20px;
+  color: #FCB2F3;
+}
+
+header .logo {
+  color: white;
+  font-weight: bold;
+}
+
+.About.Me {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.About.Me img {
+  margin-left: 150px;
+  margin-right: 100px;
+  width: 30vw;
+}
+
+.About.Me .About.Text {
+  width: 100%;
+}
+
+.About.Me h4 {
+  padding-bottom: 2rem;
+}
+
+.About.Me a {
+  padding: 1rem;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.267);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.267);
+  border-radius: 20px;
+  color: black;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width: 698px) {
+  header {
+    width: 100%;
+    margin: 0;
+  }
+  .About.Me img {
+    margin-left: 50px;
+    margin-right: 10px;
+    min-width: 200px;
+  }
+  ul a {
+    margin-left: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 488px) {
+  header .logo {
+    display: none;
+  }
+  .About.Text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .About.Text .aboutimg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .About.Text img {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  ul a {
+    padding: 1rem;
+  }
+}
+/*# sourceMappingURL=aboutme.css.map */

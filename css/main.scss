@@ -12,12 +12,11 @@ ul {
 }
 
 li {
-    color: #FCB2F3;
+  color: #fcb2f3;
 }
 
 a {
   text-decoration: none;
-  
 }
 
 img {
@@ -25,11 +24,16 @@ img {
 }
 
 .nav-container {
-  background: #9B6FFA;
+  background: #9b6ffa;
 }
 
 .nav-container a {
-  color: #FCB2F3;
+  color: #fcb2f3;
+  transition: 0.5s;
+}
+
+.nav-container a:hover {
+  opacity: 0.5;
 }
 
 header {
@@ -70,10 +74,10 @@ h1 {
 }
 
 #websiteby {
-    padding-left: 3rem;
-    padding-top: 0;
-    margin-top: 0;
-    color: #F09CD3;
+  padding-left: 3rem;
+  padding-top: 0;
+  margin-top: 0;
+  color: #f09cd3;
 }
 
 .content {
@@ -94,201 +98,189 @@ h1 {
 }
 
 #box {
-    color: #F09CD3;
-    padding-bottom: 2rem;
+  color: #f09cd3;
+  padding-bottom: 2rem;
 }
 
 .secondcontainer {
+  margin-top: 200px;
+  font-family: "Roboto", sans-serif;
 
-    margin-top: 200px;
-    font-family: "Roboto", sans-serif;
+  h2 {
+    margin: 0%;
+    font-size: 3rem;
+  }
 
-    h2 {
-        margin: 0%;
-        font-size: 3rem;
-    }
+  #aboutmyself {
+    margin: 0%;
+    font-weight: bold;
+    color: #7440ea;
+  }
 
-    #aboutmyself {
-        margin: 0%;
-        font-weight: bold;
-        color: #7440EA;
+  h3 {
+    font-weight: lighter;
+    text-align: center;
+    padding: 1em;
+  }
 
-    }
-
-    h3 {
-        font-weight: lighter;
-        text-align: center;
-        padding: 1em;
-    }
-
-    #comin {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        justify-content: center;
-        margin: auto;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        font-family: "Roboto", sans-serif;
-    }
-
-    .comingsoon {
-        background-color: #7440ea;
-    }
-
-    .boxx {
-        display: block;
-        padding: 1rem;
-        border: 1px solid white;
-        border-radius: 50px;
-        box-shadow: 0px 0px 20px #0000008a;
-    }
-
-    .aboutme {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-
-
-}
-
-
-.dandd {
-    margin-top: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  #comin {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .comingsoon {
     background-color: #7440ea;
+  }
+
+  .boxx {
+    display: block;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px #0000008a;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 200px;
+  }
+}
 
-    #dev {
-        width: 50%;
-        padding-bottom: 40px;
-    }
+.dandd {
+  margin-top: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: #7440ea;
+  align-items: center;
+  margin-bottom: 200px;
 
-    #des {
-        width: 50%;
-    }
+
+  #dev {
+    width: 50%;
+    padding-bottom: 40px;
+  }
+
+  #des {
+    width: 50%;
+  }
 }
 
 .footer {
-    text-align: center;
-    color: white;
-    padding: 1rem;
-    background-color: #7440EA;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  background-color: #7440ea;
 
-    .footerlinks {
-        display: flex;
-        justify-content: space-around;
-        text-decoration: none;
+  .footerlinks {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
 
     a {
-        color: #FCB2F3;
+      color: #fcb2f3;
     }
-    }
+  }
 }
 
 @media only screen and (max-width: 650px) {
   header {
     padding-left: 1rem;
-
   }
 
   h1 {
-      font-size: 3.5rem;
-      padding-left: 1rem;
+    font-size: 3.5rem;
+    padding-left: 1rem;
   }
 
-    #websiteby {
-        padding-left: 1rem;
-    }
+  #websiteby {
+    padding-left: 1rem;
   }
-
+}
 
 @media only screen and (min-width: 900px) {
-    .nav-container {
-        margin-right: 30%;
+  .nav-container {
+    margin-right: 30%;
+  }
+
+  .content {
+    position: relative;
+    width: 80%;
+  }
+  h1 {
+    padding-top: 3.5rem;
+    padding-left: 3rem;
+  }
+
+  .secondcontainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .boxx {
+    width: auto;
+    margin-top: 70px;
+    background-color: white;
+  }
+
+  .comingsoon {
+    width: 50%;
+  }
+
+  .aboutme {
+    width: 50%;
+    justify-content: center;
+  }
+
+  .abtme {
+    align-self: auto;
+  }
+
+  h2 {
+    font-size: 5rem !important;
+  }
+
+  h3 {
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 150px;
+    justify-content: center;
+  }
+
+  .dandd {
+    flex-direction: row;
+    justify-content: center;
+
+    #dev {
+      width: 25%;
+      padding-bottom: 0;
     }
 
-    .content {
-        position: relative;
-        width: 80%;
+    #des {
+      width: 25%;
     }
-    h1 {
-        padding-top: 3.5rem;
-        padding-left: 3rem;
-        }
-    
-    .secondcontainer {
-        display: flex;
-        flex-wrap: wrap;
+  }
+
+  .footer {
+    .footerlinks {
+      justify-content: start;
+      padding: 20px;
+      margin-left: 5%;
     }
 
-    .boxx {
-        width: auto;
-        margin-top: 70px;
-        background-color: white;
+    #blogs {
+      padding-left: 2em;
+      padding-right: 2em;
     }
-
-    .comingsoon {
-        width: 50%;
-    }
-    
-    .aboutme {
-        width: 50%;
-        justify-content: center;
-    }
-
-    .abtme {
-        align-self: auto;
-    }
-
-    h2 {
-        font-size: 5rem !important;
-    }
-
-    h3 {
-        width: 100%;
-        font-size: 1.5rem;
-        margin-top: 150px;
-        justify-content: center;
-    }
-
-    .dandd {
-        flex-direction: row;
-        justify-content: center;
-
-        #dev {
-            width: 25%;
-            padding-bottom: 0;
-
-        }
-
-        #des {
-            width: 25%;
-        }
-
-
-
-        }
-
-    .footer {
-        .footerlinks {
-            justify-content: start;
-            padding: 20px;
-            margin-left: 5%
-        }
-
-        #blogs {
-            padding-left: 2em;
-            padding-right: 2em;
-        }
-    }
-    }
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
