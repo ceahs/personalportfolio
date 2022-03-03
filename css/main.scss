@@ -63,7 +63,6 @@ h1 {
   font-weight: bold;
   color: white;
   font-size: 5.5rem;
-  padding-left: 2.5rem;
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -211,7 +210,7 @@ h1 {
   }
 
 
-@media only screen and (min-width: 910px) {
+@media only screen and (min-width: 900px) {
     .nav-container {
         margin-right: 30%;
     }
@@ -247,10 +246,6 @@ h1 {
 
     .abtme {
         align-self: auto;
-    }
-
-    h1 {
-        padding-left: 2.5rem;
     }
 
     h2 {
