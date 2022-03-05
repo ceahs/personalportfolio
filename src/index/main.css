@@ -74,11 +74,11 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 #websiteby {
@@ -98,27 +98,27 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .meet {
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #box {
@@ -154,12 +154,12 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 50%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: auto;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -176,7 +176,7 @@ h1 {
   border: 1px solid white;
   border-radius: 50px;
   -webkit-box-shadow: 0px 0px 20px #0000008a;
-  box-shadow: 0px 0px 20px #0000008a;
+          box-shadow: 0px 0px 20px #0000008a;
 }
 
 .secondcontainer .aboutme {
@@ -185,11 +185,11 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .dandd {
@@ -201,12 +201,12 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #7440ea;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 200px;
 }
 
@@ -231,7 +231,7 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   text-decoration: none;
 }
 
@@ -241,8 +241,7 @@ h1 {
 
 @media only screen and (max-width: 650px) {
   header {
-    width: 100;
-    justify-content: center;
+    padding-left: 1rem;
   }
   h1 {
     font-size: 3.5rem;
@@ -250,12 +249,6 @@ h1 {
   }
   #websiteby {
     padding-left: 1rem;
-  }
-  .logo {
-    display: none;
-  }
-  a {
-    text-align: center;
   }
 }
 
@@ -276,7 +269,7 @@ h1 {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .boxx {
     width: auto;
@@ -289,13 +282,13 @@ h1 {
   .aboutme {
     width: 50%;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .abtme {
     -ms-flex-item-align: auto;
-    -ms-grid-row-align: auto;
-    align-self: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
   }
   h2 {
     font-size: 5rem !important;
@@ -305,17 +298,17 @@ h1 {
     font-size: 1.5rem;
     margin-top: 150px;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .dandd {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .dandd #dev {
     width: 25%;
@@ -326,8 +319,8 @@ h1 {
   }
   .footer .footerlinks {
     -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: start;
+        -ms-flex-pack: start;
+            justify-content: start;
     padding: 20px;
     margin-left: 5%;
   }
