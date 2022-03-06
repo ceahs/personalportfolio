@@ -1,5 +1,5 @@
-https://ceah.dev
-https://github.com/ceahs/personalportfolio
+https://stupefied-booth-785a25.netlify.app
+<br>https://github.com/ceahs/personalportfolio
 
 **Breathtaking Design**
 <br>This is a website made by me (Kyle Meyer) It is a portfolio website displaying some information about me, and my website design skills. The website is for future employers who may want to explore my skills such as projects and view my resume. (This website is just a mockup and will not be sent to any employers.)

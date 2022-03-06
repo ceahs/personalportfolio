@@ -47,7 +47,6 @@ header {
   padding: 2em;
 }
 
-/* Change header size depending on screen size in media query */
 header .logo {
   color: white;
   font-weight: bold;
