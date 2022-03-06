@@ -13,7 +13,7 @@ https://github.com/ceahs/personalportfolio
 
 <br>
 
-![Sitemap](docs/Untitled%20drawing.png#gh-light-mode-only)
+![Sitemap](/docs/unt.png)
 
 **Sitemap**
 <br>I wanted all pages to be accessible no matter what. I think it makes more sense for a portfolio rather than doing some fancy hidden pages or making certain things avaliable from somewhere. This could only possibly make an employer less happy and more annoyed with my site if they can't find exactly what they need as quick as possible.
